@@ -26,7 +26,7 @@ app.use("/authors", authorRoutes);
 app.use("/users", userRoute);
 app.use("/borrowed-books", borrowedBookRoute);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
